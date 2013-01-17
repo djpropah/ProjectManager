@@ -24,7 +24,7 @@
 		693963C516A6375300B52123 /* projectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963C416A6375300B52123 /* projectManager.m */; };
 		693963C816A6394700B52123 /* task.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963C716A6394700B52123 /* task.m */; };
 		693963CB16A63D6700B52123 /* createNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963CA16A63D6700B52123 /* createNewTaskViewController.m */; };
-		6967F68A16A78852007B2A44 /* TaskInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6967F68916A78852007B2A44 /* TaskInfoViewController.m */; };
+		69C9DF9B16A8C3AC0098EA4D /* InfoTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9DF9A16A8C3AC0098EA4D /* InfoTaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,8 +55,8 @@
 		693963C716A6394700B52123 /* task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = task.m; sourceTree = "<group>"; };
 		693963C916A63D6700B52123 /* createNewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createNewTaskViewController.h; sourceTree = "<group>"; };
 		693963CA16A63D6700B52123 /* createNewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createNewTaskViewController.m; sourceTree = "<group>"; };
-		6967F68816A78852007B2A44 /* TaskInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskInfoViewController.h; sourceTree = "<group>"; };
-		6967F68916A78852007B2A44 /* TaskInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskInfoViewController.m; sourceTree = "<group>"; };
+		69C9DF9916A8C3AC0098EA4D /* InfoTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTaskViewController.h; sourceTree = "<group>"; };
+		69C9DF9A16A8C3AC0098EA4D /* InfoTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTaskViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +76,8 @@
 		6939638A16A6275E00B52123 = {
 			isa = PBXGroup;
 			children = (
+				69C9DF9916A8C3AC0098EA4D /* InfoTaskViewController.h */,
+				69C9DF9A16A8C3AC0098EA4D /* InfoTaskViewController.m */,
 				6939639F16A6275E00B52123 /* projectManager */,
 				6939639816A6275E00B52123 /* Frameworks */,
 				6939639616A6275E00B52123 /* Products */,
@@ -116,8 +118,6 @@
 				693963C716A6394700B52123 /* task.m */,
 				693963C916A63D6700B52123 /* createNewTaskViewController.h */,
 				693963CA16A63D6700B52123 /* createNewTaskViewController.m */,
-				6967F68816A78852007B2A44 /* TaskInfoViewController.h */,
-				6967F68916A78852007B2A44 /* TaskInfoViewController.m */,
 				693963BE16A6321200B52123 /* HomeViewController.h */,
 				693963BF16A6321200B52123 /* HomeViewController.m */,
 				693963C016A6321200B52123 /* HomeViewController.xib */,
@@ -216,7 +216,7 @@
 				693963C516A6375300B52123 /* projectManager.m in Sources */,
 				693963C816A6394700B52123 /* task.m in Sources */,
 				693963CB16A63D6700B52123 /* createNewTaskViewController.m in Sources */,
-				6967F68A16A78852007B2A44 /* TaskInfoViewController.m in Sources */,
+				69C9DF9B16A8C3AC0098EA4D /* InfoTaskViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
