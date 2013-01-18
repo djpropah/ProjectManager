@@ -15,7 +15,6 @@
 		693963AA16A6275E00B52123 /* projectManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963A916A6275E00B52123 /* projectManagerAppDelegate.m */; };
 		693963AC16A6275E00B52123 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 693963AB16A6275E00B52123 /* Default.png */; };
 		693963AE16A6275E00B52123 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 693963AD16A6275E00B52123 /* Default@2x.png */; };
-		693963B016A6275E00B52123 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 693963AF16A6275E00B52123 /* Default-568h@2x.png */; };
 		693963B916A627A100B52123 /* menurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963B716A627A100B52123 /* menurViewController.m */; };
 		693963BA16A627A100B52123 /* menurViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693963B816A627A100B52123 /* menurViewController.xib */; };
 		693963BD16A62D3B00B52123 /* planningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963BC16A62D3B00B52123 /* planningViewController.m */; };
@@ -40,7 +39,6 @@
 		693963A916A6275E00B52123 /* projectManagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectManagerAppDelegate.m; sourceTree = "<group>"; };
 		693963AB16A6275E00B52123 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		693963AD16A6275E00B52123 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		693963AF16A6275E00B52123 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		693963B616A627A100B52123 /* menurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menurViewController.h; path = ../menurViewController.h; sourceTree = "<group>"; };
 		693963B716A627A100B52123 /* menurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = menurViewController.m; path = ../menurViewController.m; sourceTree = "<group>"; };
 		693963B816A627A100B52123 /* menurViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = menurViewController.xib; path = ../menurViewController.xib; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 				693963A716A6275E00B52123 /* projectManager-Prefix.pch */,
 				693963AB16A6275E00B52123 /* Default.png */,
 				693963AD16A6275E00B52123 /* Default@2x.png */,
-				693963AF16A6275E00B52123 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,7 +192,6 @@
 				693963A416A6275E00B52123 /* InfoPlist.strings in Resources */,
 				693963AC16A6275E00B52123 /* Default.png in Resources */,
 				693963AE16A6275E00B52123 /* Default@2x.png in Resources */,
-				693963B016A6275E00B52123 /* Default-568h@2x.png in Resources */,
 				693963BA16A627A100B52123 /* menurViewController.xib in Resources */,
 				693963C216A6321200B52123 /* HomeViewController.xib in Resources */,
 			);

@@ -8,7 +8,7 @@
 
 #import "menurViewController.h"
 #import "planningViewController.h"
-#import "TaskInfoViewController.h"
+#import "InfoTaskViewController.h"
 
 
 @interface menurViewController ()
@@ -43,13 +43,13 @@
 -(IBAction)operations:(id)sender
 {
     
-    TaskInfoViewController *taskController = [[TaskInfoViewController alloc]init];
+    InfoTaskViewController *taskController = [[InfoTaskViewController alloc]init];
     
     
     
     [self.navigationController pushViewController:taskController animated:YES];
     
-    [TaskInfoViewController release];
+    [InfoTaskViewController release];
     NSLog(@"operations session");
 }
 

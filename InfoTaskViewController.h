@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InfoTaskViewController : UIViewController
+@interface InfoTaskViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (retain, nonatomic) UITableView *theTableView;
 
 @end
