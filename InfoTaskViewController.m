@@ -11,8 +11,11 @@
 #import "Assignee.h"
 #import "Task.h"
 
-@interface InfoTaskViewController ()
 
+
+
+@interface InfoTaskViewController ()
+@property (retain, nonatomic) Project *testProject;
 @end
 
 @implementation InfoTaskViewController
@@ -23,7 +26,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        Project *testProject = [[Project alloc] init];
+        self.testProject = [[Project alloc] init];
         
         
         Assignee *assignee1 = [[Assignee alloc] init];
@@ -48,8 +51,8 @@
         
         assignee2.taskList = [[NSMutableArray alloc] initWithObjects:task3,task4,nil];
         
-        testProject.manager = @"Greg";
-        testProject.assignees = [[NSArray alloc] initWithObjects:assignee1, assignee2, nil];
+        self.testProject.manager = @"Greg";
+        self.testProject.assignees = [[NSArray alloc] initWithObjects:assignee1, assignee2, nil];
 
     }
     return self;
@@ -88,9 +91,13 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 20;
+        Assignee *currAssignee = [self.testProject.assignees objectAtIndex:section];
+    
+    return currAssignee.taskList.count;
 }
-
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return self.testProject.assignees.count;
+}
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
