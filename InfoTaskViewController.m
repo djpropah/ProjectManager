@@ -48,8 +48,11 @@
         task3.name = @"task3";
         Task *task4 = [[Task alloc] init];
         task4.name = @"task4";
+        Task *task5 = [[Task alloc] init];
+        task4.name = @"task5";
         
-        assignee2.taskList = [[NSMutableArray alloc] initWithObjects:task3,task4,nil];
+        
+        assignee2.taskList = [[NSMutableArray alloc] initWithObjects:task3,task4,task5, nil];
         
         self.testProject.manager = @"Greg";
         self.testProject.assignees = [[NSArray alloc] initWithObjects:assignee1, assignee2, nil];
@@ -90,11 +93,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+    Assignee *sectionAssignee = [self.testProject.assignees objectAtIndex:section];
+    
+    NSLog (@"section titles:%@", sectionAssignee.assigneeName);
+    return sectionAssignee.assigneeName;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
         Assignee *currAssignee = [self.testProject.assignees objectAtIndex:section];
     
     return currAssignee.taskList.count;
 }
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return self.testProject.assignees.count;
 }
