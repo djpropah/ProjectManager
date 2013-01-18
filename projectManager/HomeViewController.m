@@ -8,6 +8,9 @@
 
 #import "HomeViewController.h"
 #import "menurViewController.h"
+#import "LoadProjectsViewController.h"
+
+
 
 @interface HomeViewController ()
 
@@ -33,8 +36,8 @@
 }
 
 -(IBAction)existingProj:(id)sender{
-    menurViewController *menu = [[menurViewController alloc] init];
-    [self.navigationController pushViewController:menu animated:YES];
+    LoadProjectsViewController *allProjectsTable = [[LoadProjectsViewController alloc] init];
+    [self.navigationController pushViewController:allProjectsTable animated:YES];
     [HomeViewController release];
     
     

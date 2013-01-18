@@ -25,6 +25,7 @@
 		693963C516A6375300B52123 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963C416A6375300B52123 /* Project.m */; };
 		693963CB16A63D6700B52123 /* createNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963CA16A63D6700B52123 /* createNewTaskViewController.m */; };
 		69C9DF9B16A8C3AC0098EA4D /* InfoTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9DF9A16A8C3AC0098EA4D /* InfoTaskViewController.m */; };
+		69DC480516A9DB0A0065DFAF /* LoadProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DC480416A9DB0A0065DFAF /* LoadProjectsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,8 @@
 		693963CA16A63D6700B52123 /* createNewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = createNewTaskViewController.m; sourceTree = "<group>"; };
 		69C9DF9916A8C3AC0098EA4D /* InfoTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTaskViewController.h; sourceTree = "<group>"; };
 		69C9DF9A16A8C3AC0098EA4D /* InfoTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTaskViewController.m; sourceTree = "<group>"; };
+		69DC480316A9DB0A0065DFAF /* LoadProjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadProjectsViewController.h; sourceTree = "<group>"; };
+		69DC480416A9DB0A0065DFAF /* LoadProjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadProjectsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 			children = (
 				69C9DF9916A8C3AC0098EA4D /* InfoTaskViewController.h */,
 				69C9DF9A16A8C3AC0098EA4D /* InfoTaskViewController.m */,
+				69DC480316A9DB0A0065DFAF /* LoadProjectsViewController.h */,
+				69DC480416A9DB0A0065DFAF /* LoadProjectsViewController.m */,
 				6939639F16A6275E00B52123 /* projectManager */,
 				6939639816A6275E00B52123 /* Frameworks */,
 				6939639616A6275E00B52123 /* Products */,
@@ -219,6 +224,7 @@
 				69C9DF9B16A8C3AC0098EA4D /* InfoTaskViewController.m in Sources */,
 				5CEA1A1416A8D2FF00A655A0 /* Assignee.m in Sources */,
 				5CEA1A1716A8DA2300A655A0 /* Task.m in Sources */,
+				69DC480516A9DB0A0065DFAF /* LoadProjectsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
