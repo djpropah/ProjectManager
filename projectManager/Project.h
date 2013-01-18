@@ -10,6 +10,7 @@
 
 
 @interface Project : NSObject
+@property (retain, nonatomic) NSString *projectName;
 @property (copy, nonatomic) NSString *manager;
 @property (retain, nonatomic) NSArray *assignees;
 @property (retain, nonatomic) NSArray *tasks;

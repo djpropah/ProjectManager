@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoadProjectsViewController : UIViewController
+@interface LoadProjectsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

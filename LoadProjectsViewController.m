@@ -25,6 +25,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.testProject = [[Project alloc] init];
+        self.testProject.projectName = @"Project 1";
         
         Assignee *assignee1 = [[Assignee alloc] init];
         assignee1.assigneeName = @"Robert";
@@ -50,7 +51,8 @@
         
         
         self.testProject2 = [[Project alloc] init];
-        
+        self.testProject2.projectName = @"Project 2";
+
         Assignee *assignee3 = [[Assignee alloc] init];
         assignee3.assigneeName = @"David";
         Task *task6 = [[Task alloc] init];
@@ -91,7 +93,9 @@
     
     
     UITableView *allProjects = [[UITableView alloc] initWithFrame:frame];
-    //[view addSubview:allProjects];
+    allProjects.dataSource = self;
+    allProjects.delegate = self;
+    [view addSubview:allProjects];
     
     self.view = view;
     
@@ -103,5 +107,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *cellID = @"ID";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+    }
+    cell.textLabel.text = ((Project *)[self.projectList objectAtIndex:indexPath.row]).projectName;
+
+    return cell;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.projectList.count;
+}
+
+
+
+
 
 @end
