@@ -21,6 +21,8 @@
   
     if (self) {
         Project *testProject = [[Project alloc] init];
+        
+        
         Assignee *assignee1 = [[Assignee alloc] init];
         
         assignee1.assigneeName = @"Robert";
@@ -43,6 +45,8 @@
         
         assignee2.taskList = [[NSMutableArray alloc] initWithObjects:task3,task4,nil];
         
+        testProject.manager = @"Greg";
+        testProject.assignees = [[NSArray alloc] initWithObjects:assignee1, assignee2, nil];
     }
     
     
