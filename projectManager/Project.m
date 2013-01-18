@@ -7,12 +7,26 @@
 //
 
 #import "Project.h"
+#import "Task.h"
+#import "Assignee.h"
 
 @implementation Project
 @synthesize manager = _manager;
 @synthesize assignees = _assignees;
 @synthesize tasks = _tasks;
 
+
+-(id)init{
+    self = [super init];
+  
+    if (self) {
+        Project *testProject = [[Project alloc] init];
+        
+    }
+    
+    
+    return self;
+}
 -(void) dealloc{
     self.manager = nil;
     self.assignees = nil;

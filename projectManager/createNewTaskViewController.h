@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "task.h"
+#import "Task.h"
 
 @interface createNewTaskViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate>
 
-@property (retain, nonatomic) task *currTask; //current task to be created
+@property (retain, nonatomic) Task *currTask; //current task to be created
 @property (retain, nonatomic) UIDatePicker *datePicker;
 
 

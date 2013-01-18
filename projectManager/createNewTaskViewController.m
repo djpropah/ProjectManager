@@ -29,7 +29,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        _currTask = [[task alloc]init];
+        _currTask = [[Task alloc]init];
         self.pickingEndDate = NO;
     }
     return self;

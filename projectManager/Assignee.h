@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "task.h"
+#import "Task.h"
 
 @interface Assignee : NSObject
 @property (retain, nonatomic) NSString *assigneeName;
