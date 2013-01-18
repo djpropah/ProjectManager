@@ -7,6 +7,7 @@
 //
 
 #import "InfoTaskViewController.h"
+#import "Assignee.h"
 
 @interface InfoTaskViewController ()
 

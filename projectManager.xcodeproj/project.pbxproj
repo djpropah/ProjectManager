@@ -21,7 +21,7 @@
 		693963BD16A62D3B00B52123 /* planningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963BC16A62D3B00B52123 /* planningViewController.m */; };
 		693963C116A6321200B52123 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963BF16A6321200B52123 /* HomeViewController.m */; };
 		693963C216A6321200B52123 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 693963C016A6321200B52123 /* HomeViewController.xib */; };
-		693963C516A6375300B52123 /* projectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963C416A6375300B52123 /* projectManager.m */; };
+		693963C516A6375300B52123 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963C416A6375300B52123 /* Project.m */; };
 		693963C816A6394700B52123 /* task.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963C716A6394700B52123 /* task.m */; };
 		693963CB16A63D6700B52123 /* createNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693963CA16A63D6700B52123 /* createNewTaskViewController.m */; };
 		69C9DF9B16A8C3AC0098EA4D /* InfoTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9DF9A16A8C3AC0098EA4D /* InfoTaskViewController.m */; };
@@ -50,8 +50,8 @@
 		693963BE16A6321200B52123 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		693963BF16A6321200B52123 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		693963C016A6321200B52123 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		693963C316A6375300B52123 /* projectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = projectManager.h; sourceTree = "<group>"; };
-		693963C416A6375300B52123 /* projectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = projectManager.m; sourceTree = "<group>"; };
+		693963C316A6375300B52123 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		693963C416A6375300B52123 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
 		693963C616A6394700B52123 /* task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = task.h; sourceTree = "<group>"; };
 		693963C716A6394700B52123 /* task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = task.m; sourceTree = "<group>"; };
 		693963C916A63D6700B52123 /* createNewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = createNewTaskViewController.h; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 				693963B816A627A100B52123 /* menurViewController.xib */,
 				693963BB16A62D3B00B52123 /* planningViewController.h */,
 				693963BC16A62D3B00B52123 /* planningViewController.m */,
-				693963C316A6375300B52123 /* projectManager.h */,
-				693963C416A6375300B52123 /* projectManager.m */,
+				693963C316A6375300B52123 /* Project.h */,
+				693963C416A6375300B52123 /* Project.m */,
 				693963C616A6394700B52123 /* task.h */,
 				693963C716A6394700B52123 /* task.m */,
 				5CEA1A1216A8D2FF00A655A0 /* Assignee.h */,
@@ -214,7 +214,7 @@
 				693963B916A627A100B52123 /* menurViewController.m in Sources */,
 				693963BD16A62D3B00B52123 /* planningViewController.m in Sources */,
 				693963C116A6321200B52123 /* HomeViewController.m in Sources */,
-				693963C516A6375300B52123 /* projectManager.m in Sources */,
+				693963C516A6375300B52123 /* Project.m in Sources */,
 				693963C816A6394700B52123 /* task.m in Sources */,
 				693963CB16A63D6700B52123 /* createNewTaskViewController.m in Sources */,
 				69C9DF9B16A8C3AC0098EA4D /* InfoTaskViewController.m in Sources */,
