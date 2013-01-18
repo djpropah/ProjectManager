@@ -38,7 +38,8 @@
     self.theTableView.delegate = self;
     [view addSubview:self.theTableView];
     
-    
+    view.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    self.theTableView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
     
     self.view = view;
     

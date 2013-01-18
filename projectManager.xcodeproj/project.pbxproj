@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CEA1A1416A8D2FF00A655A0 /* Assignee.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA1A1316A8D2FF00A655A0 /* Assignee.m */; };
 		6939639A16A6275E00B52123 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939639916A6275E00B52123 /* UIKit.framework */; };
 		6939639C16A6275E00B52123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939639B16A6275E00B52123 /* Foundation.framework */; };
 		6939639E16A6275E00B52123 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939639D16A6275E00B52123 /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CEA1A1216A8D2FF00A655A0 /* Assignee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignee.h; sourceTree = "<group>"; };
+		5CEA1A1316A8D2FF00A655A0 /* Assignee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignee.m; sourceTree = "<group>"; };
 		6939639516A6275E00B52123 /* projectManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6939639916A6275E00B52123 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6939639B16A6275E00B52123 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 				693963C416A6375300B52123 /* projectManager.m */,
 				693963C616A6394700B52123 /* task.h */,
 				693963C716A6394700B52123 /* task.m */,
+				5CEA1A1216A8D2FF00A655A0 /* Assignee.h */,
+				5CEA1A1316A8D2FF00A655A0 /* Assignee.m */,
 				693963C916A63D6700B52123 /* createNewTaskViewController.h */,
 				693963CA16A63D6700B52123 /* createNewTaskViewController.m */,
 				693963BE16A6321200B52123 /* HomeViewController.h */,
@@ -213,6 +218,7 @@
 				693963C816A6394700B52123 /* task.m in Sources */,
 				693963CB16A63D6700B52123 /* createNewTaskViewController.m in Sources */,
 				69C9DF9B16A8C3AC0098EA4D /* InfoTaskViewController.m in Sources */,
+				5CEA1A1416A8D2FF00A655A0 /* Assignee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
