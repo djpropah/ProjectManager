@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Paul Kim. All rights reserved.
 //
 
-#import "task.h"
+#import "Task.h"
 
-@implementation task
+@implementation Task
 
 
 @synthesize name = _name;
