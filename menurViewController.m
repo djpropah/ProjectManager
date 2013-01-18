@@ -17,6 +17,8 @@
 
 @implementation menurViewController
 
+@synthesize currentProject = _currentProject;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -44,11 +46,7 @@
 {
     
     InfoTaskViewController *taskController = [[InfoTaskViewController alloc]init];
-    
-    
-    
     [self.navigationController pushViewController:taskController animated:YES];
-    
     [InfoTaskViewController release];
     NSLog(@"operations session");
 }

@@ -7,6 +7,7 @@
 //
 
 #import "LoadProjectsViewController.h"
+#import "menurViewController.h"
 #import "Project.h"
 #import "Assignee.h"
 
@@ -90,16 +91,19 @@
     CGRect frame = [UIScreen mainScreen].applicationFrame;
     UIView *view = [[UIView alloc] initWithFrame:frame];
     view.backgroundColor = [UIColor purpleColor];
-    
+    frame.origin.y=0;
     
     UITableView *allProjects = [[UITableView alloc] initWithFrame:frame];
     allProjects.dataSource = self;
     allProjects.delegate = self;
-    [view addSubview:allProjects];
+    allProjects.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+
+    view.autoresizingMask = UIViewAutoresizingFlexibleHeight;
     
+    [view addSubview:allProjects];
+
     self.view = view;
     
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
@@ -123,7 +127,12 @@
     return self.projectList.count;
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    Project *selectedProject = [self.projectList objectAtIndex:indexPath.row];
+    menurViewController *nextController = [[menurViewController alloc] init];
+    nextController.currentProject = selectedProject;
+    [self.navigationController pushViewController:nextController animated:YES];
+}
 
 
 

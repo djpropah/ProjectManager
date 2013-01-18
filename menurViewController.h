@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Project.h"
 
 @interface menurViewController : UIViewController
+
+@property (retain, nonatomic) Project *currentProject;
 
 @property (retain, nonatomic) IBOutlet UIButton *planningSession;
 
