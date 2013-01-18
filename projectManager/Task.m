@@ -14,14 +14,14 @@
 @synthesize name = _name;
 @synthesize startDate = _startDate;
 @synthesize endDate =_endDate;
-@synthesize assignees = _assignees;
+@synthesize notes = _notes;
 
 
 -(void) dealloc{
     self.name = nil;
     self.startDate = nil;
     self.endDate = nil;
-    self.assignees = nil;
+    
     [super dealloc];
 }
 
